@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>IcyBoard_1.0_PHP</Name>
+    <ProjectGuid>9f84ea1d-99dc-42a6-8e44-8b4064a378a3</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IcyBoard_1.0_PHP</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>IcyBoard 1.0 PHP</AssemblyName>
+    <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+    <Server>PHPDev</Server>
+    <PublishEvent>None</PublishEvent>
+    <PHPDevAutoPort>True</PHPDevAutoPort>
+    <PHPDevPort>64516</PHPDevPort>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <IISProjectUrl>http://localhost:64516/</IISProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="icy-framework\auth.php" />
+    <Compile Include="icy-framework\javascript.php" />
+    <Compile Include="icy-framework\login_proc.php" />
+    <Compile Include="icy-framework\tools.php" />
+    <Compile Include="index.php" />
+    <Compile Include="login.php" />
+    <Compile Include="navbar.php" />
+    <Compile Include="icy-framework\style.php" />
+    <Compile Include="viewthread.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="acp\" />
+    <Folder Include="icy-framework\" />
+    <Folder Include="static-css\" />
+    <Folder Include="themes\" />
+    <Folder Include="themes\bootstrap-flaty\" />
+    <Folder Include="themes\bootstrap-flaty\css\" />
+    <Folder Include="themes\bootstrap-flaty\fonts\" />
+    <Folder Include="themes\bootstrap-flaty\js\" />
+    <Folder Include="themes\bootstrap-paper\" />
+    <Folder Include="themes\bootstrap-paper\css\" />
+    <Folder Include="themes\bootstrap-paper\fonts\" />
+    <Folder Include="themes\bootstrap-paper\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="static-css\login.css" />
+    <Content Include="themes\bootstrap-flaty\css\bootstrap-theme.css" />
+    <Content Include="themes\bootstrap-flaty\css\bootstrap-theme.css.map" />
+    <Content Include="themes\bootstrap-flaty\css\bootstrap-theme.min.css" />
+    <Content Include="themes\bootstrap-flaty\css\bootstrap.css" />
+    <Content Include="themes\bootstrap-flaty\css\bootstrap.css.map" />
+    <Content Include="themes\bootstrap-flaty\css\bootstrap.min.css" />
+    <Content Include="themes\bootstrap-flaty\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="themes\bootstrap-flaty\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="themes\bootstrap-flaty\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="themes\bootstrap-flaty\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="themes\bootstrap-flaty\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="themes\bootstrap-flaty\js\bootstrap.js" />
+    <Content Include="themes\bootstrap-flaty\js\bootstrap.min.js" />
+    <Content Include="themes\bootstrap-flaty\js\flot-data.js" />
+    <Content Include="themes\bootstrap-flaty\js\morris-data.js" />
+    <Content Include="themes\bootstrap-flaty\js\npm.js" />
+    <Content Include="themes\bootstrap-paper\css\bootstrap-theme.css" />
+    <Content Include="themes\bootstrap-paper\css\bootstrap-theme.css.map" />
+    <Content Include="themes\bootstrap-paper\css\bootstrap-theme.min.css" />
+    <Content Include="themes\bootstrap-paper\css\bootstrap.css" />
+    <Content Include="themes\bootstrap-paper\css\bootstrap.css.map" />
+    <Content Include="themes\bootstrap-paper\css\bootstrap.min.css" />
+    <Content Include="themes\bootstrap-paper\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="themes\bootstrap-paper\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="themes\bootstrap-paper\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="themes\bootstrap-paper\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="themes\bootstrap-paper\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="themes\bootstrap-paper\js\bootstrap.js" />
+    <Content Include="themes\bootstrap-paper\js\bootstrap.min.js" />
+    <Content Include="themes\bootstrap-paper\js\flot-data.js" />
+    <Content Include="themes\bootstrap-paper\js\morris-data.js" />
+    <Content Include="themes\bootstrap-paper\js\npm.js" />
+  </ItemGroup>
+</Project>
